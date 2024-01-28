@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.main {
+    background-image: url("/images/bacground.jpg");
+    height:644px;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.black {
+    background-color: black;
+    opacity: 0.64;
+    height: 644px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+  
+
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+.btn1 {
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.504);
+}
+
+select {
+    background-color: rgba(15, 11, 11, 0.2);
+    color: rgb(245, 238, 238);
+    font-size: larger;
+    border-radius: 5px;
+    border: none;
+
+}
+
+option {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.btn2 {
+    background-color: red;
+    height: 35px;
+    width: 80px;
+    color: white;
+    /* font-size: larger; */
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+
+.text {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+    
+
+.bigtext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.text :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.get {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.get :nth-child(1) {
+    /* height: 50px;
+    width: 350px; */
+    padding: 15px 200px 20px 10px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.318);
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.get :nth-child(1):hover {
+    border: 2px solid white;
+}
+
+.get :nth-child(2) {
+    /* height: 60px;
+    width: 100px; */
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+
+}
+
+.get :nth-child(2):hover {
+    background-color: rgba(255, 0, 0, 0.764);
+}
+
+/* .separation {
+    height: 7px;
+    background-color: rgb(50, 50, 50);
+} */
+
+button {
+    cursor: pointer;
+}
+
+.firsttxt  {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.secondtxt  {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+.first :first-child {
+    font-size: 48px;
+}
+
+.first :nth-child(2) {
+    font-size: 24px;
+}
+.secimg{
+    position: relative;
+}
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+
+.secimg video {
+    position: absolute;
+    right: 0px;
+    top: 51px;
+    width: 555px;
+}
+.firsttxt {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.faq{
+    color: white;
+   text-align: center;
+  padding: 34px;
+ 
+}
+.faqbox{
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 25px;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-weight: 900;
+    font-size: 48px;
+    font-family:  'sans-serif',Poppins;
+    margin: 50px 0px 35px 0px;
+   pointer-events: none;
+
+}
+
+.faq :hover{
+    background-color: #414141;
+}
+.h3{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.get2{
+    padding: 34px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 80vw;
+    margin: auto;
+     color: white;
+     column-gap: 20px;
+     height: 35vh;
+}
+.footer-items{
+    display: flex;
+    flex-direction:column;
+    gap: 14px;
+   /* align-items: center; */
+}
+footer a {
+    color: #d9d6d6ec;
+    font-size: 16px;
+}
+    footer span {
+        color:#d9d6d6ec ;
+      
+}
+.ques{
+    color: #d9d6d6ec;
+    padding: 50px 0px 20px 10px;
+    max-width: 30vw;
+    text-align: center;
+}
+.btn3 select{
+    padding: 0px;
+    margin: 0px;
+   color:#d9d6d6ec;
+}
+
+ @media screen and (max-width:1200px) {
+    
+
+  nav{
+    max-width: 100vw;
+  }
+  .first{
+    flex-wrap:wrap ;
+  }
+  .secimg img{
+    width: 305px;
+  }
+  .secimg video {
+    width: 305px;
+}
+
+.bigtext{
+    font-size: 32px;
+}
+.text :nth-child(2){
+    font-size: 18px;
+}
+.text :nth-child(2){
+    font-size: 18px;
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 32px;
+}
+footer {
+    max-width: 90vw;
+    padding: 75px 0;
+}
+
+.footer-item{
+    align-items: center;
+}
+
+    }
+
+    @media screen and (max-width: 1300px) {
+        
+    .footer {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 25px;
+    }
+    .get :nth-child(1){
+        padding: 15px 120px 20px 10px;
+    }
+    .faqbox{
+        font-size: 20px;
+    }
+    nav img{
+        padding: 10px;
+    }
+    .first :first-child{
+        font-size: 35px;
+    }.first :nth-child(2){
+        font-size: 15px;
+    }
+    .second :first-child{
+        font-size: 35px;
+    }.second :nth-child(2){
+        font-size: 15px;
+    }
+    .fourth :first-child{
+        font-size: 35px;
+    }.fourth :nth-child(2){
+        font-size: 15px;
+    }
+    }
